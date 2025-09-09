@@ -1,0 +1,24 @@
+Running 10s test @ http://172.16.0.11:80/users/1
+  2 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   792.55ms  153.78ms   1.05s    84.50%
+    Req/Sec   610.49    313.87     1.34k    60.20%
+  12052 requests in 10.03s, 3.43MB read
+Requests/sec:   1201.28
+Transfer/sec:    349.59KB
+Running 10s test @ http://172.16.0.11:80/users/1
+  2 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   804.34ms  156.60ms   1.09s    84.77%
+    Req/Sec   593.06    225.73     1.08k    59.09%
+  11729 requests in 10.04s, 3.33MB read
+Requests/sec:   1168.37
+Transfer/sec:    340.01KB
+Running 10s test @ http://172.16.0.11:80/users/1
+  2 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   766.77ms  155.40ms   1.05s    85.32%
+    Req/Sec   661.17    395.11     1.52k    59.68%
+  12466 requests in 10.09s, 3.54MB read
+Requests/sec:   1236.06
+Transfer/sec:    359.71KB
